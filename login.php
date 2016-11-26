@@ -3,7 +3,7 @@ require_once "define.php";
 require_once "database.php";
 require_once "session.php";
 global $ss;
-$ss->set_title("پرتال دانشجو - ورود");
+$ss->set_title("پرتال دانشجو - ورود به سیستم");
 require_once "header.php";
 ?>
 
