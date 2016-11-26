@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'sans';
+    src: url(../fonts/IRANSansWeb_Light.woff) format("woff");
+}
+body{
+	background: url(../images/login-bg.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;;
+font-family: 'sans' !important;
+	height:100%;
+	width: 100%;
+}
+html{
+	width:100%;
+	height: 100%;
+}
+#login{
+	text-align: center;
+}
+#form-login{
+	background: url(../images/white.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: right;
+position: relative;
+padding-bottom: 15px;
+}
+#form-login input[type="text"], #form-login input[type="password"]{
+height: 40px;
+width: 100%;
+padding: 0 25px 0 45px;
+background: #fafafa;
+border: 1px solid #efefef;
+line-height: 40px;
+border-radius: 300px;
+text-align: right;
+position: relative;
+}
+.page-header.navbar.navbar-fixed-top {
+    z-index: 9995;
+}
+
+.page-header.navbar {
+    background-color: #1f1f1f;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 0 !important;
+    color: #fff;
+}
+.page-header li{
+	list-style: none;
+}
+.page-header ul{
+	display: inline-block;
+}
+body,html{
+    height:100%;
+}
+.sidebar{
+	background: #242323;
+	height: 100% !important;
+	max-width: 100%;
+	color: #fff;
+	text-align: right;
+	direction: rtl;
+}
+.navbar-collapse {
+    width: 16.66666667% !important;
+    }
+.sidebar ul{
+	padding:15px
+}
+.sidebar ul li{
+	padding:10px;
+	list-style: none;
+}
+.sidebar ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+.sidebar ul li a:hover{
+	color:red;
+}
+.content{
+	direction: rtl;
+	height: 100%;
+}
+.footer-copyright{
+	background-color: rgba(44, 62, 80,0.8);
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 10000;
+	bottom: 0;
+	padding: 8px 20px 5px 20px;
+	font-size: 12px;
+	height: 33px;
+	color: #ecf0f1;
+	direction: rtl;
+}
+.footer-copyright a , .footer-copyright a:hover{
+	color: #ecf0f1;
+	text-decoration: none;
+}
+.custom1>.panel-heading{
+	color: #fff !important;
+	background-color: rgba(52, 73, 94,0.9) !important;
+	border-color:#d6e9c6;
+}
+.custom3{
+	padding: 30px 15px !important;
+}
+.custombig{
+	width: 100% !important;
+}
