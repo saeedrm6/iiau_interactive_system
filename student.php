@@ -392,7 +392,8 @@ require_once "header.php";
 					?>
 					<div class="input-group input-group-lg">
 						<span class="input-group-addon" id="sizing-addon1">درس : </span>
-						<select class="form-control">
+						<form action="student.php?page=takalif" method="post">
+						<select class="form-control" name="coursename[]">
 							<?php
 								global $local_term;
 								$studentcode = $_SESSION["StudentCode"];
@@ -400,19 +401,26 @@ require_once "header.php";
 							$i=0;
 							while ($choice = fetch_array($result)) {
 										?>
-										<option value="<?php echo $i; ?>"><?php echo $choice['name'];?></option>
+										<option value="<?php echo $choice['code']; ?>" <?php if ($_POST && in_array($choice['code'],$_POST['coursename'])){echo 'selected';}  ?> ><?php echo $choice['name'];?></option>
 										<?php
 									++$i;
 								}
 							?>
 						</select>
-						<a href="" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">تایید</a>
+<!--						<a href="" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">تایید</a>-->
+							<input type="submit" value="تایید" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1" style="width: 100%;">
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
 		<div class="com-md-12">
+			<?php
+				if (isset($_POST['coursename'])){
+				echo $_POST['coursename'][0] ;
+				}
+			?>
 			<div class="panel panel-success custom1">
 				<!-- Default panel contents -->
 				<div class="panel-heading">تکالیف درس : مهندسی نرم افزار 1</div>
@@ -457,20 +465,42 @@ require_once "header.php";
 					<p>لطفا درس مورد نظر را انتخاب نمایید : </p>
 					<div class="input-group input-group-lg">
 						<span class="input-group-addon" id="sizing-addon1">درس : </span>
-						<select class="form-control">
-							<option value="one">مهندسی نرم افزار 1</option>
-							<option value="two">ریاضی 2</option>
-							<option value="three">طراحی الگوریتم</option>
-							<option value="four">هوش مصنوعی</option>
-							<option value="five">پایگاه داده ها</option>
-						</select>
-						<a href="" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">تایید</a>
+						<form action="student.php?page=jozve" method="post">
+							<select class="form-control" name="coursename[]">
+								<?php
+								global $local_term;
+								$studentcode = $_SESSION["StudentCode"];
+								$result=esme_darsha($studentcode,$local_term);
+								$i=0;
+								while ($choice = fetch_array($result)) {
+									?>
+									<option value="<?php echo $choice['code']; ?>" <?php if ($_POST && in_array($choice['code'],$_POST['coursename'])){echo 'selected';}  ?> ><?php echo $choice['name'];?></option>
+									<?php
+									++$i;
+								}
+								?>
+							</select>
+							<!--						<a href="" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">تایید</a>-->
+							<input type="submit" value="تایید" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1" style="width: 100%;">
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
 		<div class="com-md-12">
+
+			<?php
+				if (isset($_POST['coursename'])){
+					$coursecode = $_POST['coursename'][0];
+					$studentcode = $_SESSION["StudentCode"];
+					global $local_term;
+					$result = select_jozve($studentcode,$local_term,$coursecode);
+					var_dump($result);
+
+				}
+			?>
+
 			<div class="panel panel-success custom1">
 				<!-- Default panel contents -->
 				<div class="panel-heading">جزوات درس : مهندسی نرم افزار 1</div>

@@ -204,6 +204,12 @@ function sabte_eteraz($username,$term,$id,$eteraz_desc){
 }
 
 function esme_darsha($username,$term){
-    $sql = "SELECT name FROM {$username}_{$term}";
+    $sql = "SELECT * FROM {$username}_{$term}";
+    return query($sql);
+}
+
+function select_jozve($username,$term,$code){
+    #select :
+    $sql = "SELECT * FROM {$username}_{$term} WHERE code={$code} LIMIT 1";
     return query($sql);
 }
