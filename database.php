@@ -267,3 +267,8 @@ function admins_list(){
     $sql = "SELECT * FROM admins";
     return query($sql);
 }
+
+function add_admin($sex,$fname,$lname,$fother,$admincode,$password){
+    $sql = "INSERT INTO `admins` (`sex`, `Fname`, `Lname`, `fother`, `AdminCode`, `password`) VALUES ({$sex}, '{$fname}', '{$lname}', '{$fother}', {$admincode}, '{$password}')";
+    return query($sql);
+}

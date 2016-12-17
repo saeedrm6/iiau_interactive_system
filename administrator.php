@@ -9,8 +9,8 @@ global $ss;
 $ss->set_title("پرتال کارمند - صفحه اصلی");
 if (isset($_GET['page'])){
 switch ($_GET['page']){
-	case 'choice':
-		$ss->set_title("پرتال کارمند - انتخاب واحد");
+	case 'add_admin':
+		$ss->set_title("پرتال کارمند - افزودن کارمند");
 		break;
 	case 'program':
 		$ss->set_title("پرتال دانشجو - برنامه هفتگی");
@@ -110,27 +110,29 @@ require_once "header.php";
 				<div class="panel-heading">
 					<h3 class="panel-title">ثبت مشخصه کارمند جدید</h3>
 				</div>
-				<form action="student.php?page=choice" method="post">
+				<form action="administrator.php?page=add_admin" method="post">
 				<div class="panel-body">
 					<p>لطفا اطلاعات را با دقت وارد نمایید. در حفظ و نگهداری رمزعبور و کد کارمندی کوشا باشید</p>
 					<?php
 					if (isset($_POST['choice'])) {
-						global $local_term;
-						$id = $_POST['id_select'];
-						$check_exist = check_id_course_not_copy($_SESSION["StudentCode"],$local_term,$id);
-//						echo var_dump($check_exist);
-						if(!$check_exist->num_rows == 0) {
-							?>
-							<p class="text-danger text-center">خطا در انتخاب مشخصه</p>
-							<?php
-						}else{
-							select_course($_SESSION["StudentCode"],$local_term,$_SESSION["fieldcode"],$id);
-						}
+						$admin_sex = $_POST['admin_sex'];
+						$admin_fname = $_POST['admin_fname'];
+						$admin_lname = $_POST['admin_lname'];
+						$admin_fother = $_POST['admin_fother'];
+						$admin_code = $_POST['admin_code'];
+						$admin_pass = $_POST['admin_pass'];
+						$admin_pass = password_encrypt($admin_pass);
+						add_admin($admin_sex,$admin_fname,$admin_lname,$admin_fother,$admin_code,$admin_pass);
 					}
 					?>
 					<div class="input-group input-group-lg">
 						<span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
-						<input type="text" class="form-control" placeholder="کد مشخصه" aria-describedby="sizing-addon1" name="id_select">
+						<input type="text" class="form-control" placeholder="جنسیت (0 : آقا    -   1: خانم " aria-describedby="sizing-addon1" name="admin_sex" required>
+						<input type="text" class="form-control" placeholder="نام" aria-describedby="sizing-addon1" name="admin_fname" required>
+						<input type="text" class="form-control" placeholder="نام خانوادگی" aria-describedby="sizing-addon1" name="admin_lname" required>
+						<input type="text" class="form-control" placeholder="نام پدر" aria-describedby="sizing-addon1" name="admin_fother" required>
+						<input type="text" class="form-control" placeholder="کد کارمندی" aria-describedby="sizing-addon1" name="admin_code" required>
+						<input type="password" class="form-control" placeholder="رمز عبور" aria-describedby="sizing-addon1" name="admin_pass" required>
 <!--						<span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default btn-lg">ثبت</button></span>-->
 <!--						<a  type="submit" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">ثی</aحایی</a>-->
 						<input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="ثبت" width="100%">
