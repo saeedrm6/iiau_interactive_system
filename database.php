@@ -128,7 +128,7 @@ function password_check($password,$existing_hash){
     }
 }  // بررسی پسورد
 
-function find_admin_by_username($StudentCode){
+function find_student_by_username($StudentCode){
     global $db;
     (int)$safe_username = mysqli_real_escape_string($db,$StudentCode);
     $query = "SELECT * ";
@@ -145,6 +145,38 @@ function find_admin_by_username($StudentCode){
 }
 
 function attempt_login($username,$password){
+    $admin = find_student_by_username($username);
+    if ($admin){
+        //found admin now check the password
+        if (password_check($password,$admin["password"])){
+            //password matches
+            return $admin;
+        }
+    }else{
+        //admin not found
+        return false;
+    }
+
+}
+
+function find_admin_by_username($username){
+    global $db;
+    (int)$safe_username = mysqli_real_escape_string($db,$username);
+    $query = "SELECT * ";
+    $query .="FROM admins ";
+    $query .= "WHERE AdminCode={$safe_username} ";
+    $query .= "LIMIT 1";
+    $admin_set = mysqli_query($db,$query);
+    confirm_query($admin_set);
+    if ($admin = mysqli_fetch_assoc($admin_set)){
+        return $admin;
+    }else{
+        return null;
+    }
+}
+
+
+function attempt_login_admin($username,$password){
     $admin = find_admin_by_username($username);
     if ($admin){
         //found admin now check the password
@@ -159,12 +191,18 @@ function attempt_login($username,$password){
 
 }
 
-function logged_in() {
-    return isset($_SESSION['StudentCode']);
+function logged_in($access) {
+
+    if ($access=='student' && isset($_SESSION['StudentCode'])){
+        return true;
+    }elseif ($access=='administrator' && isset($_SESSION['AdminCode'])){
+        return true;
+    }
+//    return isset($_SESSION['StudentCode']);
 }
 
-function confirm_logged_in() {
-    if (!logged_in()) {
+function confirm_logged_in($access) {
+    if (!logged_in($access)) {
         redirect_to("login.php");
     }
 }
@@ -194,8 +232,13 @@ function select_course($username,$term,$field,$id){
     $save_sql_select = fetch_array($save_sql_select);
 
     #save:
+    $code_course = $save_sql_select{'code'};
     $sql_save = "INSERT INTO {$username}_{$term} (id,code,name,unit,description,exam_time,teacher) VALUES ({$save_sql_select['id']},{$save_sql_select{'code'}},'{$save_sql_select['name']}',{$save_sql_select['unit']},'{$save_sql_select['description']}','{$save_sql_select['exam_time']}','{$save_sql_select['teacher']}')";
     query($sql_save);
+
+    #table_jozve:
+    $sql_jozve_create_general = "CREATE TABLE IF NOT EXISTS {$code_course}_{$term} (id INT(11) NOT NULL PRIMARY KEY ,jalase VARCHAR(30), date TIMESTAMP NULL ,PDF VARCHAR (200),voice VARCHAR (200))";
+    query($sql_jozve_create_general);
 }
 
 function sabte_eteraz($username,$term,$id,$eteraz_desc){
@@ -208,8 +251,19 @@ function esme_darsha($username,$term){
     return query($sql);
 }
 
-function select_jozve($username,$term,$code){
+function select_jozve($code,$term){
     #select :
-    $sql = "SELECT * FROM {$username}_{$term} WHERE code={$code} LIMIT 1";
+//    $sql = "SELECT * FROM {$username}_{$term} WHERE code={$code} LIMIT 1";
+    $sql = "SELECT * FROM {$code}_{$term}";
+    return query($sql);
+}
+
+function get_course_name($field_code,$local_term,$code){
+    $sql = "SELECT name FROM {$field_code}_{$local_term} WHERE code={$code} LIMIT 1";
+    return query($sql);
+}
+
+function admins_list(){
+    $sql = "SELECT * FROM admins";
     return query($sql);
 }

@@ -33,9 +33,9 @@ require_once "header.php";
 		<br><br>
 		<table class="table table-striped">
 			<tr>
-				<td><input name="type" type="radio" value="کارمند">کارمند</input></td>
-				<td><input name="type" type="radio" value="استاد">استاد</input></td>
-				<td><input name="type" type="radio" value="دانشجو" checked>دانشجو</input></td>
+				<td><input name="accesstype" type="radio" value="کارمند">کارمند</input></td>
+				<td><input name="accesstype" type="radio" value="استاد">استاد</input></td>
+				<td><input name="accesstype" type="radio" value="دانشجو" checked>دانشجو</input></td>
 			</tr>
 		</table>
 		<table class="table ">
@@ -51,27 +51,48 @@ require_once "header.php";
 		<?php
 		if (isset($_POST['submit'])){
 			open_connection();
-			$username = $_POST["username"];
-			$password = $_POST["password"];
-			$found_admin = attempt_login($username,$password);
-			if ($found_admin) {
-				// Success
-//            $_SESSION["message"] = "Admin created.";
-				$_SESSION["id"]=$found_admin["id"];
-				$_SESSION["StudentCode"]=$found_admin["StudentCode"];
-				$_SESSION["sex"]=$found_admin["sex"];
-				$_SESSION["Fname"]=$found_admin["Fname"];
-				$_SESSION["Lname"]=$found_admin["Lname"];
-				$_SESSION["fother"]=$found_admin["fother"];
-				$_SESSION["field"]=$found_admin["field"];
-				$_SESSION["level"]=$found_admin["level"];
-				$_SESSION["fieldcode"]=$found_admin["fieldcode"];
-				redirect_to("student.php");
-			} else {
-				// Failure
-				$_SESSION["message"] = "username/password not found!";
+			if (isset($_POST['accesstype'])){
+				if ($_POST['accesstype']=='دانشجو'){
+								$username = $_POST["username"];
+								$password = $_POST["password"];
+								$found_student = attempt_login($username,$password);
+								if ($found_student) {
+									// Success
+					//            $_SESSION["message"] = "Admin created.";
+									$_SESSION["id"]=$found_student["id"];
+									$_SESSION["StudentCode"]=$found_student["StudentCode"];
+									$_SESSION["sex"]=$found_student["sex"];
+									$_SESSION["Fname"]=$found_student["Fname"];
+									$_SESSION["Lname"]=$found_student["Lname"];
+									$_SESSION["fother"]=$found_student["fother"];
+									$_SESSION["field"]=$found_student["field"];
+									$_SESSION["level"]=$found_student["level"];
+									$_SESSION["fieldcode"]=$found_student["fieldcode"];
+									redirect_to("student.php");
+								} else {
+									// Failure
+									$_SESSION["message"] = "username/password not found!";
+								}
+				}elseif ($_POST['accesstype']=='کارمند'){
+									$username = $_POST["username"];
+									$password = $_POST["password"];
+									$found_admin = attempt_login_admin($username,$password);
+									if ($found_admin){
+										$_SESSION["id"]=$found_admin["id"];
+										$_SESSION["AdminCode"]=$found_admin["AdminCode"];
+										$_SESSION["sex"]=$found_admin["sex"];
+										$_SESSION["Fname"]=$found_admin["Fname"];
+										$_SESSION["Lname"]=$found_admin["Lname"];
+										$_SESSION["fother"]=$found_admin["fother"];
+										redirect_to("administrator.php");
+									}else{
+										$_SESSION["message"] = "username/password not found!";
+									}
+				}
 			}
-			close_connection();
+
+
+//			close_connection();
 		}
 
 		?>

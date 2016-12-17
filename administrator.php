@@ -6,11 +6,11 @@ $access = basename($_SERVER["PHP_SELF"],'.php');
 confirm_logged_in($access);
 open_connection();
 global $ss;
-$ss->set_title("پرتال دانشجو - صفحه اصلی");
+$ss->set_title("پرتال کارمند - صفحه اصلی");
 if (isset($_GET['page'])){
 switch ($_GET['page']){
 	case 'choice':
-		$ss->set_title("پرتال دانشجو - انتخاب واحد");
+		$ss->set_title("پرتال کارمند - انتخاب واحد");
 		break;
 	case 'program':
 		$ss->set_title("پرتال دانشجو - برنامه هفتگی");
@@ -36,7 +36,6 @@ require_once "header.php";
 <script >
 	var ww = $( document ).height();
 </script>
-
 <div class="page-header navbar navbar-fixed-top">
 	<div class="col-md-1 col-xss-0 col-xs-0 visible-md">
 	<br>
@@ -66,7 +65,7 @@ require_once "header.php";
 	  <div class="panel-heading"><?php echo $sex;?> <b><?php echo $_SESSION["Fname"].' '. $_SESSION["Lname"]; ?></b> خوش آمدید</div>
 	  <div class="panel-body">
 	    <p>ترم جاری : <b>نیم سال اول سال 96-95</b></p><br>
-	    <p>نام پدر : <b><?php echo $_SESSION["fother"];?></b> &nbsp&nbsp&nbsp کد دانشجویی : <b><?php echo $_SESSION["StudentCode"];?></b> &nbsp&nbsp&nbsp رشته تحصیلی : <b><?php echo $_SESSION["field"];?></b> &nbsp&nbsp&nbsp مقطع تحصیلی : <b><?php echo $_SESSION["level"];?></b></p>
+	    <p>نام پدر : <b><?php echo $_SESSION["fother"];?></b> &nbsp&nbsp&nbsp کد کارمندی : <b><?php echo $_SESSION["AdminCode"];?></b></p>
 	  </div>
 	</div>
 	<br>
@@ -102,18 +101,18 @@ require_once "header.php";
 		</table>
 		<?php
 	}
-	elseif ($_GET['page']=="choice") {
+	elseif ($_GET['page']=="add_admin") {
 		?>
 
 		<div class="col-md-7"></div>
 		<div class="col-md-5">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">ثبت مشخصه</h3>
+					<h3 class="panel-title">ثبت مشخصه کارمند جدید</h3>
 				</div>
 				<form action="student.php?page=choice" method="post">
 				<div class="panel-body">
-					<p>لطفا مشخصه خود را به درستی در کادر زیر وارد و سپس بر روی دکمه ثبت نهایی کلیک کنید</p>
+					<p>لطفا اطلاعات را با دقت وارد نمایید. در حفظ و نگهداری رمزعبور و کد کارمندی کوشا باشید</p>
 					<?php
 					if (isset($_POST['choice'])) {
 						global $local_term;
@@ -143,96 +142,34 @@ require_once "header.php";
 		<div class="clearfix"></div>
 		<div class="panel panel-success custom1">
 			<!-- Default panel contents -->
-			<div class="panel-heading">وضعیت انتخاب واحد در  نيمسال اول سال 96-95</div>
+			<div class="panel-heading">لیست کارمندان</div>
 
 			<!-- Table -->
 			<table class="table table-striped table-hover" style="background:#ccc;">
 				<thead class="active" style="text-align: right;">
-				<th style="text-align: right">مشخصه</th>
-				<th style="text-align: right">کد درس</th>
-				<th style="text-align: right">نام درس</th>
-				<th style="text-align: right">واحد</th>
-				<th style="text-align: right">ساعت کلاس</th>
-				<th style="text-align: right">تاریخ امتحان</th>
-				<th style="text-align: right">نام استاد</th>
+				<th style="text-align: right">نام و نام خانوادگی</th>
+				<th style="text-align: right">نام پدر</th>
+				<th style="text-align: right">کد کارمندی</th>
 				</thead>
 				<tbody>
 				<?php
-				global $local_term;
-				create_student_choice_units($_SESSION["StudentCode"],$local_term);
-				$result = select_from_units($_SESSION["StudentCode"],$local_term);
-//				$sql = "SELECT * FROM {$_SESSION["StudentCode"]}_{$local_term}";
-//				$result = query($sql);
-				while ($choice = fetch_array($result)) {
+				$admins_name =admins_list();
+				while ($admins = fetch_array($admins_name)) {
 					?>
 									<tr>
-										<td><?php echo $choice['id']; ?></td>
-										<td><?php echo $choice['code']; ?></td>
-										<td><?php echo $choice['name']; ?></td>
-										<td><?php echo $choice['unit']; ?></td>
-										<td><?php echo $choice['description']; ?></td>
-										<td><?php echo $choice['exam_time']; ?></td>
-										<td><?php echo $choice['teacher']; ?></td>
+										<td><?php echo $admins['Fname'].' '.$admins['Lname']; ?></td>
+										<td><?php echo $admins['fother']; ?></td>
+										<td><?php echo $admins['AdminCode']; ?></td>
 									</tr>
 					<?php
 				}
 				?>
 				</tbody>
 			</table>
-			<?php
-			if (!$result->num_rows) {
-				?>
-				<br>
-				<p class="text-center text-info">شما هیچ درسی را تاکنون انتخاب نکرده اید</p>
-				<?php
-			}
-			?>
+
 		</div>
 		<div class="clearfix"></div>
 
-		<div class="panel panel-primary">
-		<!-- Default panel contents -->
-		<div class="panel-heading">ليست دروس ارائه شده در  نيمسال اول سال 96-95</div>
-
-		<!-- Table -->
-		<table class="table table-striped table-hover" style="background:#ccc;">
-			<thead class="active" style="text-align: right;">
-			<th style="text-align: right">مشخصه</th>
-			<th style="text-align: right">کد درس</th>
-			<th style="text-align: right">نام درس</th>
-			<th style="text-align: right">واحد</th>
-			<th style="text-align: right">ساعت کلاس</th>
-			<th style="text-align: right">تاریخ امتحان</th>
-			<th style="text-align: right">نام استاد</th>
-			</thead>
-			<tbody>
-			<?php
-				global $local_term;
-				$fieldcode=$_SESSION["fieldcode"];
-				$sql = "SELECT * FROM ";
-				$sql .= $fieldcode . '_' .$local_term;
-				$sql .= " ORDER BY id";
-				$result = query($sql);
-				while ($list = fetch_array($result)) {
-					?>
-					<tr>
-						<td><?php echo $list['id']; ?></td>
-						<td><?php echo $list['code']; ?></td>
-						<td><?php echo $list['name']; ?></td>
-						<td><?php echo $list['unit']; ?></td>
-						<td><?php echo $list['description']; ?></td>
-						<td><?php echo $list['exam_time']; ?></td>
-						<td><?php echo $list['teacher']; ?></td>
-					</tr>
-					<?php
-				}
-				mysqli_free_result($result);
-			?>
-
-			</tbody>
-		</table>
-		</div>
-		<br><br>
 		<?php
 	}
 	elseif ($_GET['page']=="program") {
@@ -656,14 +593,14 @@ require_once "header.php";
 <div id="collapse" class="col-md-2 page-sidebar navbar-collapse collapse sidebar col-xss-12 col-xs-12">
 	<br>
 	<ul>
-		<li><a href="<?php echo Site."/student.php";?>"><i class="glyphicon glyphicon-home"></i>&nbspصفحه اصلی</a></li>
-		<li><a href="<?php echo Site."/student.php?page=choice";?>"><i class="glyphicon glyphicon-plus"></i>&nbspانتخاب واحد</a></li>
-		<li><a href="<?php echo Site."/student.php?page=program";?>"><i class="glyphicon glyphicon-calendar"></i>&nbspبرنامه هفتگی</a></li>
-		<li><a href="<?php echo Site."/student.php?page=karname";?>"><i class="glyphicon glyphicon-education"></i>&nbspکارنامه</a></li>
-		<li><a href="<?php echo Site."/student.php?page=takalif";?>"><i class="glyphicon glyphicon-edit"></i>&nbspمدیریت تکالیف</a></li>
-		<li><a href="<?php echo Site."/student.php?page=jozve";?>"><i class="glyphicon glyphicon-folder-open"></i>&nbspجزوه</a></li>
+		<li><a href="<?php echo Site."/administrator.php";?>"><i class="glyphicon glyphicon-home"></i>&nbspصفحه اصلی</a></li>
+		<li><a href="<?php echo Site."/administrator.php?page=add_admin";?>"><i class="glyphicon glyphicon-plus"></i>&nbspافزودن کارمند</a></li>
+		<li><a href="<?php echo Site."/student.php?page=choice";?>"><i class="glyphicon glyphicon-plus"></i>&nbspافزودن استاد</a></li>
+		<li><a href="<?php echo Site."/student.php?page=program";?>"><i class="glyphicon glyphicon-plus"></i>&nbspافزودن دانشجو</a></li>
+		<li><a href="<?php echo Site."/student.php?page=karname";?>"><i class="glyphicon glyphicon-education"></i>&nbspتعیین ترم جاری</a></li>
+		<li><a href="<?php echo Site."/student.php?page=takalif";?>"><i class="glyphicon glyphicon-edit"></i>&nbspافزودن درس</a></li>
+		<li><a href="<?php echo Site."/student.php?page=jozve";?>"><i class="glyphicon glyphicon-folder-open"></i>&nbspپیام های عمومی</a></li>
 		<li><a href="<?php echo Site."/student.php?page=message";?>"><i class="glyphicon glyphicon-envelope"></i>&nbspمدیریت پیام ها</a></li>
-		<li><a href="<?php echo Site."/student.php?page=edit_profile";?>"><i class="glyphicon glyphicon-cog"></i>&nbspویرایش پروفایل</a></li>
 	</ul>
 </div>
 
