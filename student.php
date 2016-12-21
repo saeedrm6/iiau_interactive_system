@@ -52,10 +52,14 @@ require_once "header.php";
 			}
 		?>
 	<?php echo $sex . $_SESSION["Fname"].' '. $_SESSION["Lname"]; ?>   &nbsp&nbsp&nbsp&nbsp&nbsp <ul><li>
-	<button class="btn btn-danger text-danger" type="button">
+	<button class="btn btn-info text-info" type="button">
   	پیام دریافتی <span class="badge text-danger"><i class="glyphicon glyphicon-inbox"></i> 4</span>
-	</button></li></ul></div>
-	<div class="col-md-6 col-xss-0 col-xs-0"></div>
+	</button></li><li><a href="signout.php"><button class="btn btn-danger text-danger" type="button">
+					خروج از سیستم <span class="badge text-danger"><i class="glyphicon glyphicon-export"></i></span>
+				</button></li></a></ul></div>
+	<div class="col-md-6 col-xss-0 col-xs-0">
+
+	</div>
 	</div>
 <br><br><br>
 <div class="clearfix"></div>

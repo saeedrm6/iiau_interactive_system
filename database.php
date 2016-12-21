@@ -272,3 +272,45 @@ function add_admin($sex,$fname,$lname,$fother,$admincode,$password){
     $sql = "INSERT INTO `admins` (`sex`, `Fname`, `Lname`, `fother`, `AdminCode`, `password`) VALUES ({$sex}, '{$fname}', '{$lname}', '{$fother}', {$admincode}, '{$password}')";
     return query($sql);
 }
+
+function add_teacher($sex,$fname,$lname,$fother,$teachercode,$field,$level,$password,$fieldcode){
+    $sql = "INSERT INTO `teachers` (`sex`, `Fname`, `Lname`, `fother`, `TeacherCode`, `field`, `level`, `password`, `fieldcode`) VALUES ({$sex}, '{$fname}', '{$lname}', '{$fother}', '{$teachercode}', '{$field}', '{$level}', '{$password}', '{$fieldcode}')";
+    return query($sql);
+}
+
+function teachers_list(){
+    $sql = "SELECT * FROM teachers";
+    return query($sql);
+}
+
+function add_student($sex,$fname,$lname,$fother,$studentcode,$field,$level,$password,$fieldcode){
+    $sql = "INSERT INTO `students` (`sex`, `Fname`, `Lname`, `fother`, `StudentCode`, `field`, `level`, `password`, `fieldcode`) VALUES ({$sex}, '{$fname}', '{$lname}', '{$fother}', '{$studentcode}', '{$field}', '{$level}', '{$password}', '{$fieldcode}')";
+    return query($sql);
+}
+
+function student_list(){
+    $sql = "SELECT * FROM students";
+    return query($sql);
+}
+
+function time_stamp(){
+    date_default_timezone_set('Asia/Tehran');
+    $dt = time();
+    $mysql_datetime = strftime("%Y-%m-%d %H:%M:%S", $dt);
+    return $mysql_datetime;
+}
+
+function general_message($message,$time){
+    $sql = "INSERT INTO `general_message` (`message`, `time`) VALUES ('{$message}', '{$time}')";
+    query($sql);
+}
+
+function add_fieldcode($code,$name){
+    $sql="INSERT INTO `fieldcode` (`code`, `name`) VALUES ({$code}, '{$name}')";
+    query($sql);
+}
+
+function fieldcode_list(){
+    $sql="SELECT * FROM `fieldcode`";
+    return query($sql);
+}

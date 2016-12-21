@@ -54,6 +54,8 @@ position: relative;
 }
 .page-header li{
 	list-style: none;
+	display: inline-block;
+	padding: 0px 5px;
 }
 .page-header ul{
 	display: inline-block;
