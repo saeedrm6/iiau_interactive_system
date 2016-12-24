@@ -1,4 +1,5 @@
 <?php
+require_once "database.php";
 define('Site','http://localhost/cms');
 class Title{
     private $title;
@@ -19,4 +20,10 @@ class Title{
 }
 
 $ss = new Title;
-$local_term = 95961;
+open_connection();
+$ttt=get_term();
+$local_term = null;
+while ($term = mysqli_fetch_assoc($ttt)){
+    global $local_term;
+    $local_term = $term['term'];
+}

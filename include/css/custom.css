@@ -120,3 +120,8 @@ body,html{
 .custombig{
 	width: 100% !important;
 }
+
+#cstul li{
+	list-style: none;
+	padding: 10px;
+}

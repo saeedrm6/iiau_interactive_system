@@ -231,9 +231,14 @@ function select_course($username,$term,$field,$id){
     $save_sql_select = query($sql_select);
     $save_sql_select = fetch_array($save_sql_select);
 
+    #create table_studetnt:
+    $sql = "Create Table IF NOT EXISTS {$username}_{$term} (id INT(11) NOT NULL PRIMARY KEY, code INT(11), name VARCHAR(40), unit INT(11), description VARCHAR(60), exam_time VARCHAR(15), teacher VARCHAR(60), exam_point INT(2), reexam_point INT(2), eteraz INT(1), eteraz_desc VARCHAR(250),TeacherCode INT(11) )";
+    query($sql);
+
+
     #save:
     $code_course = $save_sql_select{'code'};
-    $sql_save = "INSERT INTO {$username}_{$term} (id,code,name,unit,description,exam_time,teacher) VALUES ({$save_sql_select['id']},{$save_sql_select{'code'}},'{$save_sql_select['name']}',{$save_sql_select['unit']},'{$save_sql_select['description']}','{$save_sql_select['exam_time']}','{$save_sql_select['teacher']}')";
+    $sql_save = "INSERT INTO {$username}_{$term} (id,code,name,unit,description,exam_time,teacher,TeacherCode) VALUES ({$save_sql_select['id']},{$save_sql_select{'code'}},'{$save_sql_select['name']}',{$save_sql_select['unit']},'{$save_sql_select['description']}','{$save_sql_select['exam_time']}','{$save_sql_select['teacher']}',{$save_sql_select['TeacherCode']})";
     query($sql_save);
 
     #table_jozve:
@@ -313,4 +318,23 @@ function add_fieldcode($code,$name){
 function fieldcode_list(){
     $sql="SELECT * FROM `fieldcode`";
     return query($sql);
+}
+
+function get_term(){
+    $sql = "SELECT * FROM `settings`";
+    return query($sql);
+}
+
+function set_term($term,$term_name){
+    $sql = "DELETE FROM `settings`";
+    query($sql);
+    $sql = "INSERT INTO `settings` (`term`, `term_name`) VALUES ({$term}, '{$term_name}')";
+    query($sql);
+}
+
+function insert_course($id,$code,$name,$unit,$description,$exam_time,$teacher,$TeacherCode,$idd,$local_term){
+    $sql = "Create Table IF NOT EXISTS {$idd}_{$local_term} (id INT(11) NOT NULL PRIMARY KEY, code INT(11), name VARCHAR(40), unit INT(11), description VARCHAR(60), exam_time VARCHAR(15), teacher VARCHAR(60), TeacherCode INT(11))";
+    query($sql);
+    $sql = "INSERT INTO `{$idd}_{$local_term}` (`id`, `code`, `name`, `unit`, `description`, `exam_time`, `teacher`, `TeacherCode`) VALUES ({$id}, {$code}, '{$name}', {$unit}, '{$description}', '{$exam_time}', '{$teacher}', {$TeacherCode})";
+    query($sql);
 }
