@@ -191,11 +191,45 @@ function attempt_login_admin($username,$password){
 
 }
 
+
+function find_teacher_by_username($username){
+    global $db;
+    (int)$safe_username = mysqli_real_escape_string($db,$username);
+    $query = "SELECT * ";
+    $query .="FROM teachers ";
+    $query .= "WHERE TeacherCode={$safe_username} ";
+    $query .= "LIMIT 1";
+    $teacher_set = mysqli_query($db,$query);
+    confirm_query($teacher_set);
+    if ($teacher = mysqli_fetch_assoc($teacher_set)){
+        return $teacher;
+    }else{
+        return null;
+    }
+}
+
+function attempt_login_teacher($username,$password){
+    $teacher= find_teacher_by_username($username);
+    if ($teacher){
+        //found admin now check the password
+        if (password_check($password,$teacher["password"])){
+            //password matches
+            return $teacher;
+        }
+    }else{
+        //admin not found
+        return false;
+    }
+
+}
+
 function logged_in($access) {
 
     if ($access=='student' && isset($_SESSION['StudentCode'])){
         return true;
     }elseif ($access=='administrator' && isset($_SESSION['AdminCode'])){
+        return true;
+    }elseif ($access=='teacher' && isset($_SESSION['TeacherCode'])){
         return true;
     }
 //    return isset($_SESSION['StudentCode']);
@@ -242,7 +276,7 @@ function select_course($username,$term,$field,$id){
     query($sql_save);
 
     #table_jozve:
-    $sql_jozve_create_general = "CREATE TABLE IF NOT EXISTS {$code_course}_{$term} (id INT(11) NOT NULL PRIMARY KEY ,jalase VARCHAR(30), date TIMESTAMP NULL ,PDF VARCHAR (200),voice VARCHAR (200))";
+    $sql_jozve_create_general = "CREATE TABLE IF NOT EXISTS {$code_course}_{$term} (id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY ,jalase VARCHAR(30), date TIMESTAMP NULL ,PDF VARCHAR (200),voice VARCHAR (200))";
     query($sql_jozve_create_general);
 }
 
@@ -320,6 +354,11 @@ function fieldcode_list(){
     return query($sql);
 }
 
+function teacher_courses($fieldcode,$term,$teachercode){
+    $sql = "SELECT * FROM `{$fieldcode}_{$term}` WHERE `TeacherCode` = $teachercode";
+    return query($sql);
+}
+
 function get_term(){
     $sql = "SELECT * FROM `settings`";
     return query($sql);
@@ -337,4 +376,31 @@ function insert_course($id,$code,$name,$unit,$description,$exam_time,$teacher,$T
     query($sql);
     $sql = "INSERT INTO `{$idd}_{$local_term}` (`id`, `code`, `name`, `unit`, `description`, `exam_time`, `teacher`, `TeacherCode`) VALUES ({$id}, {$code}, '{$name}', {$unit}, '{$description}', '{$exam_time}', '{$teacher}', {$TeacherCode})";
     query($sql);
+}
+
+function list_daneshjohaye_ostad($fieldcode,$term,$code,$teachercode){
+    $backend_result=array();
+    #kole daneshjoo haye reshte field ostad:
+    $sql = "SELECT * FROM `students` WHERE `fieldcode`={$fieldcode}";
+    $result_students=query($sql);
+    while ($rst = fetch_array($result_students)){
+//        $sql2="SELECT * FROM {$rst['StudentCode']}_{$term} WHERE code={$code} AND TeacherCode={$teachercode}";
+        $sql2="SELECT * FROM `930247933_95961` WHERE `code`=810026 AND `TeacherCode`=45375";
+        $backend_result = query($sql2);
+//        info_student($rst['StudentCode'],$backend_result);
+//        echo $rst['StudentCode'];
+    }
+
+}
+
+function info_student($studentcode,$backend){
+    $sql = "SELECT * FROM `students` WHERE `StudentCode`={$studentcode}";
+    return array(query($sql),$backend);
+}
+
+function create_jozve($code_course,$term){
+    $sql_jozve_create_general = "CREATE TABLE IF NOT EXISTS {$code_course}_{$term} (id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY ,jalase VARCHAR(30), date TIMESTAMP NULL ,PDF VARCHAR (200),voice VARCHAR (200))";
+    query($sql_jozve_create_general);
+    $time=time_stamp();
+    $sql = "";
 }

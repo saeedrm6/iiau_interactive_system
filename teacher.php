@@ -6,7 +6,7 @@ $access = basename($_SERVER["PHP_SELF"],'.php');
 confirm_logged_in($access);
 open_connection();
 global $ss;
-$ss->set_title("پرتال کارمند - صفحه اصلی");
+$ss->set_title("پرتال استاد - صفحه اصلی");
 if (isset($_GET['page'])){
 switch ($_GET['page']){
 	case 'add_admin':
@@ -66,8 +66,8 @@ require_once "header.php";
 	  <!-- Default panel contents -->
 	  <div class="panel-heading"><?php echo $sex;?> <b><?php echo $_SESSION["Fname"].' '. $_SESSION["Lname"]; ?></b> خوش آمدید</div>
 	  <div class="panel-body">
-	    <p>ترم جاری : <b>نیم سال اول سال 96-95</b></p><br>
-	    <p>نام پدر : <b><?php echo $_SESSION["fother"];?></b> &nbsp&nbsp&nbsp کد کارمندی : <b><?php echo $_SESSION["AdminCode"];?></b></p>
+          <p>ترم جاری : <b>نیم سال اول سال 96-95</b></p><br>
+          <p>نام پدر : <b><?php echo $_SESSION["fother"];?></b> &nbsp&nbsp&nbsp کد استاد : <b><?php echo $_SESSION["TeacherCode"];?></b> &nbsp&nbsp&nbsp رشته تحصیلی : <b><?php echo $_SESSION["field"];?></b> &nbsp&nbsp&nbsp مقطع تحصیلی : <b><?php echo $_SESSION["level"];?></b></p>
 	  </div>
 	</div>
 	<br>
@@ -103,159 +103,86 @@ require_once "header.php";
 		</table>
 		<?php
 	}
-	elseif ($_GET['page']=="add_admin") {
+	elseif ($_GET['page']=="add_point") {
 		?>
 
-		<div class="col-md-7"></div>
-		<div class="col-md-5">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title">ثبت مشخصه کارمند جدید</h3>
-				</div>
-				<form action="administrator.php?page=add_admin" method="post">
-				<div class="panel-body">
-					<p>لطفا اطلاعات را با دقت وارد نمایید. در حفظ و نگهداری رمزعبور و کد کارمندی کوشا باشید</p>
-					<?php
-					if (isset($_POST['choice'])) {
-						$admin_sex = $_POST['admin_sex'];
-						$admin_fname = $_POST['admin_fname'];
-						$admin_lname = $_POST['admin_lname'];
-						$admin_fother = $_POST['admin_fother'];
-						$admin_code = $_POST['admin_code'];
-						$admin_pass = $_POST['admin_pass'];
-						$admin_pass = password_encrypt($admin_pass);
-						add_admin($admin_sex,$admin_fname,$admin_lname,$admin_fother,$admin_code,$admin_pass);
-					}
-					?>
-					<div class="input-group input-group-lg">
-						<span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
-						<input type="text" class="form-control" placeholder="جنسیت (0 : آقا    -   1: خانم " aria-describedby="sizing-addon1" name="admin_sex" required>
-						<input type="text" class="form-control" placeholder="نام" aria-describedby="sizing-addon1" name="admin_fname" required>
-						<input type="text" class="form-control" placeholder="نام خانوادگی" aria-describedby="sizing-addon1" name="admin_lname" required>
-						<input type="text" class="form-control" placeholder="نام پدر" aria-describedby="sizing-addon1" name="admin_fother" required>
-						<input type="text" class="form-control" placeholder="کد کارمندی" aria-describedby="sizing-addon1" name="admin_code" required>
-						<input type="password" class="form-control" placeholder="رمز عبور" aria-describedby="sizing-addon1" name="admin_pass" required>
-<!--						<span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default btn-lg">ثبت</button></span>-->
-<!--						<a  type="submit" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">ثی</aحایی</a>-->
-						<input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="ثبت" width="100%">
-					</div>
-				</div>
-				</form>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-		<div class="panel panel-success custom1">
-			<!-- Default panel contents -->
-			<div class="panel-heading">لیست کارمندان</div>
-
-			<!-- Table -->
-			<table class="table table-striped table-hover" style="background:#ccc;">
-				<thead class="active" style="text-align: right;">
-				<th style="text-align: right">نام و نام خانوادگی</th>
-				<th style="text-align: right">نام پدر</th>
-				<th style="text-align: right">کد کارمندی</th>
-				</thead>
-				<tbody>
-				<?php
-				$admins_name =admins_list();
-				while ($admins = fetch_array($admins_name)) {
-					?>
-									<tr>
-										<td><?php echo $admins['Fname'].' '.$admins['Lname']; ?></td>
-										<td><?php echo $admins['fother']; ?></td>
-										<td><?php echo $admins['AdminCode']; ?></td>
-									</tr>
-					<?php
-				}
-				?>
-				</tbody>
-			</table>
-
-		</div>
-		<div class="clearfix"></div>
-
-		<?php
-	}
-	elseif ($_GET['page']=="add_teacher") {
-		?>
-
-
-        <div class="col-md-7"></div>
-        <div class="col-md-5">
+		<div class="col-md-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">ثبت مشخصه استاد جدید</h3>
+                    <h3 class="panel-title">انتخاب درس</h3>
                 </div>
-                <form action="administrator.php?page=add_teacher" method="post">
+                <form action="teacher.php?page=add_point" method="get">
                     <div class="panel-body">
-                        <p>لطفا اطلاعات را با دقت وارد نمایید. در حفظ و نگهداری رمزعبور و کد استادی کوشا باشید</p>
+                        <p>از بین درس های ارائه شده انتخاب نمایید</p>
                         <?php
-                        if (isset($_POST['choice'])) {
-                            $teacher_sex = $_POST['teacher_sex'];
-                            $teacher_fname = $_POST['teacher_fname'];
-                            $teacher_lname = $_POST['teacher_lname'];
-                            $teacher_fother = $_POST['teacher_fother'];
-                            $teacher_code = $_POST['teacher_code'];
-                            $teacher_field = $_POST['teacher_field'];
-                            $teacher_level = $_POST['teacher_level'];
-                            $teacher_fieldcode = $_POST['teacher_fieldcode'];
-                            $teacher_pass = $_POST['teacher_pass'];
-                            $teacher_pass = password_encrypt($teacher_pass);
-                            add_teacher($teacher_sex,$teacher_fname,$teacher_lname,$teacher_fother,$teacher_code,$teacher_field,$teacher_level,$teacher_pass,$teacher_fieldcode);
-                        }
+
                         ?>
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
-                            <input type="text" class="form-control" placeholder="جنسیت (0 : آقا    -   1: خانم " aria-describedby="sizing-addon1" name="teacher_sex" required>
-                            <input type="text" class="form-control" placeholder="نام" aria-describedby="sizing-addon1" name="teacher_fname" required>
-                            <input type="text" class="form-control" placeholder="نام خانوادگی" aria-describedby="sizing-addon1" name="teacher_lname" required>
-                            <input type="text" class="form-control" placeholder="نام پدر" aria-describedby="sizing-addon1" name="teacher_fother" required>
-                            <input type="text" class="form-control" placeholder="کد استادی" aria-describedby="sizing-addon1" name="teacher_code" required>
-                            <input type="text" class="form-control" placeholder="رشته" aria-describedby="sizing-addon1" name="teacher_field" required>
-                            <input type="text" class="form-control" placeholder="آخرین مدرک" aria-describedby="sizing-addon1" name="teacher_level" required>
-                            <input type="password" class="form-control" placeholder="رمز عبور" aria-describedby="sizing-addon1" name="teacher_pass" required>
-                            <input type="password" class="form-control" placeholder="کد رشته" aria-describedby="sizing-addon1" name="teacher_fieldcode" required>
+                            <select class="form-control" name="selectcourse[]" id="testt">
+                                <?php
+                                global $local_term;
+                                $fieldcode = $_SESSION["fieldcode"];
+                                $teachercode = $_SESSION["TeacherCode"];
+                                $result = teacher_courses($fieldcode,$local_term,$teachercode);
+                                while($course = mysqli_fetch_assoc($result)) {
+                                    ?>
+                                    <option value="<?php echo $course['code']; ?>" <?php if ($_POST && in_array($course['code'],$_POST['fieldcodes'])){echo 'selected';}  ?>><?php echo $course['name']; ?></option>
+                                    <?php
+                                }
+                                ?>
+                            </select>
+
                             <!--						<span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default btn-lg">ثبت</button></span>-->
                             <!--						<a  type="submit" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">ثی</aحایی</a>-->
-                            <input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="ثبت" width="100%">
+                            <input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="تایید" width="100%">
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="clearfix"></div>
-        <div class="panel panel-success custom1">
-            <!-- Default panel contents -->
-            <div class="panel-heading">لیست اساتید</div>
 
-            <!-- Table -->
-            <table class="table table-striped table-hover" style="background:#ccc;">
-                <thead class="active" style="text-align: right;">
-                <th style="text-align: right">نام و نام خانوادگی</th>
-                <th style="text-align: right">نام پدر</th>
-                <th style="text-align: right">کد استادی</th>
-                <th style="text-align: right">کد رشته</th>
-                </thead>
-                <tbody>
-                <?php
-                $teachers_name =teachers_list();
-                while ($teachers = fetch_array($teachers_name)) {
-                    ?>
-                    <tr>
-                        <td><?php echo $teachers['Fname'].' '. $teachers['Lname']; ?></td>
-                        <td><?php echo $teachers['fother']; ?></td>
-                        <td><?php echo $teachers['TeacherCode']; ?></td>
-                        <td><?php echo $teachers['fieldcode']; ?></td>
-                    </tr>
-                    <?php
-                }
-                ?>
-                </tbody>
-            </table>
+		<?php
+	}
+	elseif ($_GET['page']=="add_jozve") {
+		?>
 
+
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">انتخاب درس</h3>
+                </div>
+                <form action="teacher.php?page=add_jozve" method="get">
+                    <div class="panel-body">
+                        <p>از بین درس های ارائه شده انتخاب نمایید</p>
+                        <?php
+
+                        ?>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
+                            <select class="form-control" name="selectjozve[]" id="testt">
+                                <?php
+                                global $local_term;
+                                $fieldcode = $_SESSION["fieldcode"];
+                                $teachercode = $_SESSION["TeacherCode"];
+                                $result = teacher_courses($fieldcode,$local_term,$teachercode);
+                                while($course = mysqli_fetch_assoc($result)) {
+                                    ?>
+                                    <option value="<?php echo $course['code']; ?>" <?php if ($_POST && in_array($course['code'],$_POST['fieldcodes'])){echo 'selected';}  ?>><?php echo $course['name']; ?></option>
+                                    <?php
+                                }
+                                ?>
+                            </select>
+
+                            <!--						<span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default btn-lg">ثبت</button></span>-->
+                            <!--						<a  type="submit" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">ثی</aحایی</a>-->
+                            <input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="تایید" width="100%">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="clearfix"></div>
-        <br><br><br><br>
 		<?php
 	}
 	elseif ($_GET['page']=="add_student") {
@@ -411,7 +338,21 @@ require_once "header.php";
                 <form action="administrator.php?page=add_course" method="get">
                     <div class="panel-body">
                         <p>از بین رشته ها انتخاب نمایید</p>
-                        
+                        <?php
+                        if (isset($_POST['choice'])) {
+                            $student_sex = $_POST['student_sex'];
+                            $student_fname = $_POST['student_fname'];
+                            $student_lname = $_POST['student_lname'];
+                            $student_fother = $_POST['student_fother'];
+                            $student_code = $_POST['student_code'];
+                            $student_field = $_POST['student_field'];
+                            $student_level = $_POST['student_level'];
+                            $student_fieldcode = $_POST['student_fieldcode'];
+                            $student_pass = $_POST['student_pass'];
+                            $student_pass = password_encrypt($student_pass);
+                            add_student($student_sex,$student_fname,$student_lname,$student_fother,$student_code,$student_field,$student_level,$student_pass,$student_fieldcode);
+                        }
+                        ?>
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
                             <select class="form-control" name="fieldcodes[]" id="testt">
@@ -729,44 +670,40 @@ require_once "header.php";
         </div>
     <?php
 	}
-	if (isset($_GET['fieldcodes'])){
-	    $idd= $_GET['fieldcodes'][0]; ?>
+	if (isset($_GET['selectcourse'])){
+	    $idd= $_GET['selectcourse'][0]; ?>
     <script>
         document.getElementById("tablemsg").style.display = "none";
         document.getElementById("gnrlmsg").style.display="none";
     </script>
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">ثبت درس جدید</h3>
+                <h3 class="panel-title">ثبت نمرات</h3>
             </div>
-            <form action="administrator.php?fieldcodes[]=<?php echo $idd; ?>&choice=تایید" method="post">
+            <form action="teacher.php?selectcourse[]=<?php echo $idd; ?>&choice=تایید" method="post">
                 <div class="panel-body">
                     <p>لطفا اطلاعات درس مورد نظر را به صورت کامل وارد نمایید</p>
                     <?php
                     if (isset($_POST['choice'])) {
-                        $course_id=$_POST['course_id'];
-                        $course_code=$_POST['course_code'];
-                        $course_name=$_POST['course_name'];
-                        $course_unit=$_POST['course_unit'];
-                        $course_desc=$_POST['course_desc'];
-                        $course_date=$_POST['course_date'];
-                        $course_teacher=$_POST['course_teacher'];
-                        $course_teacher_id=$_POST['course_teacher_id'];
-                        global $local_term;
-                        insert_course($course_id,$course_code,$course_name,$course_unit,$course_desc,$course_date,$course_teacher,$course_teacher_id,$idd,$local_term);
+//                        $course_id=$_POST['course_id'];
+//                        $course_code=$_POST['course_code'];
+//                        $course_name=$_POST['course_name'];
+//                        $course_unit=$_POST['course_unit'];
+//                        $course_desc=$_POST['course_desc'];
+//                        $course_date=$_POST['course_date'];
+//                        $course_teacher=$_POST['course_teacher'];
+//                        $course_teacher_id=$_POST['course_teacher_id'];
+//                        global $local_term;
+//                        insert_course($course_id,$course_code,$course_name,$course_unit,$course_desc,$course_date,$course_teacher,$course_teacher_id,$idd,$local_term);
 //                        add_admin($admin_sex,$admin_fname,$admin_lname,$admin_fother,$admin_code,$admin_pass);
+
                     }
                     ?>
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
-                        <input type="text" class="form-control" placeholder="شناسه درس" aria-describedby="sizing-addon1" name="course_id" required>
-                        <input type="text" class="form-control" placeholder="کد درس" aria-describedby="sizing-addon1" name="course_code" required>
-                        <input type="text" class="form-control" placeholder="نام درس" aria-describedby="sizing-addon1" name="course_name" required>
-                        <input type="text" class="form-control" placeholder="تعداد واحد" aria-describedby="sizing-addon1" name="course_unit" required>
-                        <input type="text" class="form-control" placeholder="توضیحات درس" aria-describedby="sizing-addon1" name="course_desc" required>
-                        <input type="text" class="form-control" placeholder="تاریخ امتحان" aria-describedby="sizing-addon1" name="course_date" required>
-                        <input type="text" class="form-control" placeholder="نام استاد" aria-describedby="sizing-addon1" name="course_teacher" required>
-                        <input type="text" class="form-control" placeholder="کد استاد" aria-describedby="sizing-addon1" name="course_teacher_id" required>
+                        <input type="text" class="form-control" placeholder="کد دانشجو" aria-describedby="sizing-addon1" name="course_id" required>
+                        <input type="text" class="form-control" placeholder="نمره از 20" aria-describedby="sizing-addon1" name="course_code" required>
+
                         <!--						<span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default btn-lg">ثبت</button></span>-->
                         <!--						<a  type="submit" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">ثی</aحایی</a>-->
                         <input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="ثبت" width="100%">
@@ -774,6 +711,86 @@ require_once "header.php";
                 </div>
             </form>
         </div>
+        <div class="clearfix"></div>
+        <div class="panel panel-success custom1">
+            <!-- Default panel contents -->
+            <div class="panel-heading">لیست دانشجویان من</div>
+
+            <!-- Table -->
+            <table class="table table-striped table-hover" style="background:#ccc;">
+                <thead class="active" style="text-align: right;">
+                <th style="text-align: right">نام و نام خانوادگی</th>
+                <th style="text-align: right">نام پدر</th>
+                <th style="text-align: right">کد دانشجو</th>
+                <th style="text-align: right">نمره</th>
+                </thead>
+                <tbody>
+                <?php
+                $fieldcode = $_SESSION["fieldcode"];
+                $teachercode = $_SESSION["TeacherCode"];
+                global $local_term;
+                $code = $_GET['selectcourse'][0];
+                $students_name=list_daneshjohaye_ostad($fieldcode,$local_term,$code,$teachercode);
+                var_dump($students_name);
+                while ($students = mysqli_fetch_array($students_name)) {
+                    ?>
+<!--                    <tr>-->
+<!--                        <td>--><?php //echo $students['Fname'].' '. $students['Lname']; ?><!--</td>-->
+<!--                        <td>--><?php //echo $students['fother']; ?><!--</td>-->
+<!--                        <td>--><?php //echo $students['StudentCode']; ?><!--</td>-->
+<!--                        <td>--><?php //echo $students['exam_point']; ?><!--</td>-->
+<!--                    </tr>-->
+                    <?php
+                    var_dump($students);
+                }
+                ?>
+                </tbody>
+            </table>
+
+        </div>
+    <?php
+    }
+    if (isset($_GET['selectjozve'])){
+        $code_course = $_GET['selectjozve'][0];
+//        echo $code_course;
+        global $local_term;
+        create_jozve($code_course,$local_term);
+        ?>
+        <script>
+            document.getElementById("tablemsg").style.display = "none";
+            document.getElementById("gnrlmsg").style.display="none";
+        </script>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">ثبت جزوه جدید</h3>
+            </div>
+            <form action="administrator.php?page=add_course" method="post">
+                <div class="panel-body">
+                    <p>لطفا اطلاعات را وارد نمایید</p>
+                    <?php
+                    if (isset($_POST['choice'])) {
+                        $jalase = $_POST['jalase'];
+                        $pdf = $_POST['pdf'];
+                        $voice = $_POST['voice'];
+                        $time = time_stamp();
+                        global $code_course;
+                        global $local_term;
+                        create_jozve2($code_course,$local_term);
+                    }
+                    ?>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
+                        <input type="text" class="form-control" placeholder="جلسه" aria-describedby="sizing-addon1" name="jalase" required>
+                        <input type="text" class="form-control" placeholder="آدرس PDF" aria-describedby="sizing-addon1" name="pdf" >
+                        <input type="text" class="form-control" placeholder="آدرس voice" aria-describedby="sizing-addon1" name="voice" >
+                        <!--						<span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default btn-lg">ثبت</button></span>-->
+                        <!--						<a  type="submit" class="input-group-addon btn btn-success btn-lg" id="sizing-addon1">ثی</aحایی</a>-->
+                        <input type="submit" class="input-group-addon btn btn-success btn-lg custombig" id="sizing-addon1" name="choice" value="ثبت" width="100%">
+                    </div>
+                </div>
+            </form>
+        </div>
+
     <?php
     }
 	?>
@@ -786,13 +803,11 @@ require_once "header.php";
 <div id="collapse" class="col-md-2 page-sidebar navbar-collapse collapse sidebar col-xss-12 col-xs-12">
 	<br>
 	<ul>
-		<li><a href="<?php echo Site."/administrator.php";?>"><i class="glyphicon glyphicon-home"></i>&nbspصفحه اصلی</a></li>
-		<li><a href="<?php echo Site."/administrator.php?page=add_admin";?>"><i class="glyphicon glyphicon-plus"></i>&nbspافزودن کارمند</a></li>
-		<li><a href="<?php echo Site."/administrator.php?page=add_teacher";?>"><i class="glyphicon glyphicon-plus"></i>&nbspافزودن استاد</a></li>
-		<li><a href="<?php echo Site."/administrator.php?page=add_student";?>"><i class="glyphicon glyphicon-plus"></i>&nbspافزودن دانشجو</a></li>
-		<li><a href="<?php echo Site."/administrator.php?page=select_term";?>"><i class="glyphicon glyphicon-education"></i>&nbspتعیین ترم جاری</a></li>
-		<li><a href="<?php echo Site."/administrator.php?page=add_course";?>"><i class="glyphicon glyphicon-edit"></i>&nbspافزودن درس</a></li>
-		<li><a href="<?php echo Site."/administrator.php?page=public_messages";?>"><i class="glyphicon glyphicon-folder-open"></i>&nbspپیام های عمومی</a></li>
+		<li><a href="<?php echo Site."/teacher.php";?>"><i class="glyphicon glyphicon-home"></i>&nbspصفحه اصلی</a></li>
+		<li><a href="<?php echo Site."/teacher.php?page=add_point";?>"><i class="glyphicon glyphicon-plus"></i>&nbspثبت نمرات</a></li>
+		<li><a href="<?php echo Site."/teacher.php?page=add_teacher";?>"><i class="glyphicon glyphicon-plus"></i>&nbspبررسی اعتراض نمرات</a></li>
+		<li><a href="<?php echo Site."/teacher.php?page=add_jozve";?>"><i class="glyphicon glyphicon-plus"></i>&nbspثبت جزوه</a></li>
+		<li><a href="<?php echo Site."/administrator.php?page=select_term";?>"><i class="glyphicon glyphicon-education"></i>&nbspمشاهده تکالیف</a></li>
 		<li><a href="<?php echo Site."/student.php?page=message";?>"><i class="glyphicon glyphicon-envelope"></i>&nbspمدیریت پیام ها</a></li>
 	</ul>
 </div>

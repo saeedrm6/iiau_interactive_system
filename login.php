@@ -73,7 +73,8 @@ require_once "header.php";
 									// Failure
 									$_SESSION["message"] = "username/password not found!";
 								}
-				}elseif ($_POST['accesstype']=='کارمند'){
+				}
+				elseif ($_POST['accesstype']=='کارمند'){
 									$username = $_POST["username"];
 									$password = $_POST["password"];
 									$found_admin = attempt_login_admin($username,$password);
@@ -88,6 +89,24 @@ require_once "header.php";
 									}else{
 										$_SESSION["message"] = "username/password not found!";
 									}
+				}
+				elseif($_POST['accesstype']=='استاد'){
+										$username = $_POST["username"];
+										$password = $_POST["password"];
+										$found_teacher = attempt_login_teacher($username,$password);
+										if ($found_teacher){
+											$_SESSION["id"]=$found_teacher["id"];
+											$_SESSION["TeacherCode"]=$found_teacher["TeacherCode"];
+											$_SESSION["sex"]=$found_teacher["sex"];
+											$_SESSION["Fname"]=$found_teacher["Fname"];
+											$_SESSION["Lname"]=$found_teacher["Lname"];
+											$_SESSION["fother"]=$found_teacher["fother"];
+											$_SESSION["field"]=$found_teacher["field"];
+											$_SESSION["level"]=$found_teacher["level"];
+											$_SESSION["fieldcode"]=$found_teacher["fieldcode"];
+											redirect_to("teacher.php");
+											echo "hi";
+										}
 				}
 			}
 

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ade15105-1a65-4d69-a751-5cb5d2e78e56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator.php" afterPath="$PROJECT_DIR$/administrator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/teacher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.php" afterPath="$PROJECT_DIR$/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/define.php" afterPath="$PROJECT_DIR$/define.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/css/custom.css" afterPath="$PROJECT_DIR$/include/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
     </list>
     <ignored path="cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,139 +29,128 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1137">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/signout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="administrator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="769" column="165" selection-start-line="769" selection-start-column="149" selection-end-line="769" selection-end-column="165" />
+            <state relative-caret-position="1309">
+              <caret line="98" column="68" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="68" />
               <folding>
-                <element signature="e#3144#6299#0#PHP" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#2;n#!!top" expanded="false" />
-                <element signature="e#6301#11398#0#PHP" expanded="false" />
-                <element signature="n#div#7;n#div#2;n#!!top" expanded="false" />
-                <element signature="e#11400#16756#0#PHP" expanded="false" />
-                <element signature="n#div#0;n#div#12;n#div#2;n#!!top" expanded="false" />
-                <element signature="e#16758#22637#0#PHP" expanded="false" />
-                <element signature="n#div#16;n#div#2;n#!!top" expanded="false" />
-                <element signature="n#div#17;n#div#2;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#17;n#div#2;n#!!top" expanded="false" />
-                <element signature="e#22639#26709#0#PHP" expanded="false" />
-                <element signature="e#26711#30924#0#PHP" expanded="false" />
-                <element signature="e#30926#33819#0#PHP" expanded="false" />
-                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#27;n#div#2;n#!!top" expanded="true" />
-                <element signature="e#33821#36048#0#PHP" expanded="false" />
-                <element signature="e#33968#33975#0#HTML" expanded="true" />
-                <marker date="1482520765598" expanded="true" signature="2777:2820" ph="SELECT * FRO... general_message" />
-                <marker date="1482520765598" expanded="false" signature="15409:15425" ph="..." />
-                <marker date="1482520765598" expanded="false" signature="15473:15491" ph="..." />
-                <marker date="1482520765598" expanded="false" signature="15521:15538" ph="..." />
-                <marker date="1482520765598" expanded="false" signature="15591:15608" ph="..." />
-                <marker date="1482520765598" expanded="false" signature="15650:15667" ph="..." />
-                <marker date="1482520765598" expanded="false" signature="15832:15849" ph="..." />
-                <marker date="1482520765598" expanded="true" signature="33212:33255" ph="SELECT * FRO... general_message" />
+                <element signature="e#1644#4064#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="teacher.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11186">
+              <caret line="777" column="62" selection-start-line="777" selection-start-column="62" selection-end-line="777" selection-end-column="62" />
+              <folding>
+                <element signature="e#3293#5429#0#PHP" expanded="false" />
+                <element signature="e#32224#36522#0#PHP" expanded="false" />
+                <marker date="1482615214852" expanded="true" signature="2926:2969" ph="SELECT * FRO... general_message" />
+                <marker date="1482615214852" expanded="true" signature="29386:29429" ph="SELECT * FRO... general_message" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="240" column="359" selection-start-line="240" selection-start-column="359" selection-end-line="240" selection-end-column="359" />
+            <state relative-caret-position="6851">
+              <caret line="403" column="20" selection-start-line="403" selection-start-column="10" selection-end-line="403" selection-end-column="20" />
               <folding>
-                <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-                <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-                <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-                <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-                <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-                <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-                <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-                <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-                <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-                <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-                <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-                <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-                <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-                <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-                <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-                <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-                <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-                <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-                <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-                <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-                <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-                <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-                <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-                <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-                <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-                <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-                <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-                <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-                <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-                <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-                <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-                <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-                <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-                <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-                <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-                <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-                <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-                <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-                <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-                <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-                <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-                <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-                <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-                <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-                <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-                <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+                <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+                <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+                <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+                <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+                <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+                <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+                <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+                <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+                <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+                <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+                <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+                <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+                <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+                <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+                <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+                <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+                <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+                <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+                <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+                <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+                <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+                <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+                <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+                <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+                <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+                <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+                <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+                <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+                <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+                <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+                <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+                <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+                <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+                <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+                <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+                <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+                <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+                <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+                <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+                <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+                <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+                <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+                <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+                <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+                <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+                <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+                <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+                <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+                <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+                <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+                <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+                <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+                <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+                <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+                <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="administrator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="413" column="24" selection-start-line="413" selection-start-column="24" selection-end-line="413" selection-end-column="24" />
+              <folding>
+                <element signature="e#3144#6299#0#PHP" expanded="false" />
+                <element signature="e#11400#16756#0#PHP" expanded="false" />
+                <element signature="e#25711#29924#0#PHP" expanded="false" />
+                <element signature="e#29926#32819#0#PHP" expanded="false" />
+                <element signature="e#32821#35048#0#PHP" expanded="false" />
+                <marker date="1482664981869" expanded="true" signature="2777:2820" ph="SELECT * FRO... general_message" />
+                <marker date="1482664981869" expanded="true" signature="32212:32255" ph="SELECT * FRO... general_message" />
               </folding>
             </state>
           </provider>
@@ -170,8 +159,8 @@
       <file leaf-file-name="student.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="43" />
+            <state relative-caret-position="1207">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="72" selection-end-column="281" />
               <folding>
                 <element signature="e#7734#9472#0#PHP" expanded="false" />
                 <element signature="e#9474#12127#0#PHP" expanded="false" />
@@ -188,7 +177,7 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="2091">
               <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
               <folding />
             </state>
@@ -214,13 +203,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/signout.php" />
         <option value="$PROJECT_DIR$/student.php" />
         <option value="$PROJECT_DIR$/define.php" />
         <option value="$PROJECT_DIR$/include/css/custom.css" />
-        <option value="$PROJECT_DIR$/administrator.php" />
+        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/database.php" />
+        <option value="$PROJECT_DIR$/teacher.php" />
+        <option value="$PROJECT_DIR$/administrator.php" />
       </list>
     </option>
   </component>
@@ -291,6 +281,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -334,12 +330,13 @@
       <workItem from="1480012703889" duration="53000" />
       <workItem from="1480523292216" duration="8186000" />
       <workItem from="1481914529223" duration="15117000" />
-      <workItem from="1482240591073" duration="28695000" />
+      <workItem from="1482240591073" duration="43035000" />
+      <workItem from="1482664872108" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68985000" />
+    <option name="totallyTimeSpent" value="83431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -384,9 +381,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,29 +405,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#3144#6299#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#6301#11398#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#2;n#!!top" expanded="false" />
             <element signature="e#11400#16756#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#12;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#16758#22637#0#PHP" expanded="false" />
-            <element signature="n#div#16;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#17;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#17;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#22639#26709#0#PHP" expanded="false" />
-            <element signature="e#26711#30924#0#PHP" expanded="false" />
-            <element signature="e#30926#33819#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#27;n#div#2;n#!!top" expanded="true" />
-            <element signature="e#33821#36048#0#PHP" expanded="false" />
-            <element signature="e#33968#33975#0#HTML" expanded="true" />
-            <marker date="1482520765598" expanded="true" signature="2777:2820" ph="SELECT * FRO... general_message" />
-            <marker date="1482520765598" expanded="false" signature="15409:15425" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15473:15491" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15521:15538" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15591:15608" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15650:15667" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15832:15849" ph="..." />
-            <marker date="1482520765598" expanded="true" signature="33212:33255" ph="SELECT * FRO... general_message" />
+            <element signature="e#25711#29924#0#PHP" expanded="false" />
+            <element signature="e#29926#32819#0#PHP" expanded="false" />
+            <element signature="e#32821#35048#0#PHP" expanded="false" />
+            <marker date="1482664981869" expanded="true" signature="2777:2820" ph="SELECT * FRO... general_message" />
+            <marker date="1482664981869" expanded="true" signature="32212:32255" ph="SELECT * FRO... general_message" />
           </folding>
         </state>
       </provider>
@@ -428,71 +420,80 @@
         <state relative-caret-position="4590">
           <caret line="270" column="67" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="67" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -525,7 +526,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="40" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,71 +561,80 @@
         <state relative-caret-position="3417">
           <caret line="201" column="73" selection-start-line="201" selection-start-column="73" selection-end-line="201" selection-end-column="73" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -631,7 +643,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="40" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -664,71 +678,80 @@
         <state relative-caret-position="1190">
           <caret line="70" column="17" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="17" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -737,7 +760,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="40" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -770,71 +795,80 @@
         <state relative-caret-position="1190">
           <caret line="70" column="17" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="17" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -843,7 +877,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="40" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -876,71 +912,80 @@
         <state relative-caret-position="1190">
           <caret line="70" column="17" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="17" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -949,7 +994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="38" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -966,71 +1013,80 @@
         <state relative-caret-position="3043">
           <caret line="179" column="26" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="26" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -1069,7 +1125,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="38" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,71 +1144,80 @@
         <state relative-caret-position="3043">
           <caret line="179" column="26" selection-start-line="179" selection-start-column="9" selection-end-line="179" selection-end-column="26" />
           <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -1185,19 +1252,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1137">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,6 +1270,158 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="98" column="68" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="68" />
+          <folding>
+            <element signature="e#1644#4064#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11186">
+          <caret line="777" column="62" selection-start-line="777" selection-start-column="62" selection-end-line="777" selection-end-column="62" />
+          <folding>
+            <element signature="e#3293#5429#0#PHP" expanded="false" />
+            <element signature="e#32224#36522#0#PHP" expanded="false" />
+            <marker date="1482615214852" expanded="true" signature="2926:2969" ph="SELECT * FRO... general_message" />
+            <marker date="1482615214852" expanded="true" signature="29386:29429" ph="SELECT * FRO... general_message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6851">
+          <caret line="403" column="20" selection-start-line="403" selection-start-column="10" selection-end-line="403" selection-end-column="20" />
+          <folding>
+            <marker date="1482614547872" expanded="true" signature="6749:7031" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="7145:7171" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7276:7333" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7461" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="7448:7462" ph="SELECT * FRO... ${$field}" />
+            <marker date="1482614547872" expanded="true" signature="7448:7471" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7478" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7488" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7448:7493" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="7634:7931" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="8026:8038" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8049" ph="INSERT INTO " />
+            <marker date="1482614547872" expanded="true" signature="8026:8050" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8153" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8181" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8237" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8273" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8026:8372" ph="INSERT INTO $... " />
+            <marker date="1482614547872" expanded="true" signature="8449:8476" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8490" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8491" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8498" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8449:8627" ph="CREATE TABLE... IF" />
+            <marker date="1482614547872" expanded="true" signature="8740:8800" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8820" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8740:8825" ph="UPDATE ${{$u... " />
+            <marker date="1482614547872" expanded="true" signature="8906:8932" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="8906:8939" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9033:9093" ph="SELECT id FR... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9122" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9129" ph="SELECT * FRO... " />
+            <marker date="1482614547872" expanded="true" signature="9108:9130" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9108:9137" ph="SELECT * FRO... $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9253" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9266" ph="SELECT name " />
+            <marker date="1482614547872" expanded="true" signature="9236:9267" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9280" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9292" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9299" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9236:9307" ph="SELECT name $" />
+            <marker date="1482614547872" expanded="true" signature="9373:9393" ph="SELECT * FRO... admins" />
+            <marker date="1482614547872" expanded="true" signature="9504:9667" ph="INSERT INTO `admins`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9941" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9953" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:9965" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10008" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="9807:10049" ph="INSERT INTO `teachers`... " />
+            <marker date="1482614547872" expanded="true" signature="10117:10139" ph="SELECT * FRO... teachers" />
+            <marker date="1482614547872" expanded="true" signature="10279:10413" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10279:10521" ph="INSERT INTO `students`... " />
+            <marker date="1482614547872" expanded="true" signature="10588:10610" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="10870:10929" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="10870:10952" ph="INSERT INTO `general_message`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11047" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11081" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11022:11090" ph="INSERT INTO `fieldcode`... " />
+            <marker date="1482614547872" expanded="true" signature="11150:11175" ph="SELECT * FRO... fieldcode" />
+            <marker date="1482614547872" expanded="true" signature="11274:11333" ph="SELECT * FRO... ${{$fieldcode}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="11274:11345" ph="SELECT * FRO... {}_95961" />
+            <marker date="1482614547872" expanded="true" signature="11408:11432" ph="SELECT * FRO... settings" />
+            <marker date="1482614547872" expanded="true" signature="11511:11533" ph="DELETE FROM " />
+            <marker date="1482614547872" expanded="true" signature="11565:11642" ph="INSERT INTO `settings`... " />
+            <marker date="1482614547872" expanded="true" signature="11787:12004" ph="Create Table... IF" />
+            <marker date="1482614547872" expanded="true" signature="12036:12201" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12219" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12235" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12036:12263" ph="INSERT INTO `1520_95961`... " />
+            <marker date="1482614547872" expanded="true" signature="12443:12486" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12443:12498" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="12602:12681" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12713:12728" ph="SELECT * FRO... ${{$rst['StudentCode']}}_${{$term}}" />
+            <marker date="1482614547872" expanded="true" signature="12713:12788" ph="SELECT * FRO... 930247933_95961" />
+            <marker date="1482614547872" expanded="true" signature="12996:13041" ph="SELECT * FRO... students" />
+            <marker date="1482614547872" expanded="true" signature="13177:13355" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="413" column="24" selection-start-line="413" selection-start-column="24" selection-end-line="413" selection-end-column="24" />
+          <folding>
+            <element signature="e#3144#6299#0#PHP" expanded="false" />
+            <element signature="e#11400#16756#0#PHP" expanded="false" />
+            <element signature="e#25711#29924#0#PHP" expanded="false" />
+            <element signature="e#29926#32819#0#PHP" expanded="false" />
+            <element signature="e#32821#35048#0#PHP" expanded="false" />
+            <marker date="1482664981869" expanded="true" signature="2777:2820" ph="SELECT * FRO... general_message" />
+            <marker date="1482664981869" expanded="true" signature="32212:32255" ph="SELECT * FRO... general_message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="72" selection-end-column="281" />
+          <folding>
+            <element signature="e#7734#9472#0#PHP" expanded="false" />
+            <element signature="e#9474#12127#0#PHP" expanded="false" />
+            <element signature="e#12129#14634#0#PHP" expanded="false" />
+            <element signature="e#14636#18706#0#PHP" expanded="false" />
+            <element signature="e#22923#22984#0#PHP" expanded="false" />
+            <marker date="1482307222495" expanded="true" signature="2796:2839" ph="SELECT * FRO... general_message" />
+            <marker date="1482307222495" expanded="true" signature="7114:7127" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1222,145 +1431,6 @@
         <state relative-caret-position="391">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="43" />
-          <folding>
-            <element signature="e#7734#9472#0#PHP" expanded="false" />
-            <element signature="e#9474#12127#0#PHP" expanded="false" />
-            <element signature="e#12129#14634#0#PHP" expanded="false" />
-            <element signature="e#14636#18706#0#PHP" expanded="false" />
-            <element signature="e#22923#22984#0#PHP" expanded="false" />
-            <marker date="1482307222495" expanded="true" signature="2796:2839" ph="SELECT * FRO... general_message" />
-            <marker date="1482307222495" expanded="true" signature="7114:7127" ph="SELECT * FRO... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="769" column="165" selection-start-line="769" selection-start-column="149" selection-end-line="769" selection-end-column="165" />
-          <folding>
-            <element signature="e#3144#6299#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#6301#11398#0#PHP" expanded="false" />
-            <element signature="n#div#7;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#11400#16756#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#12;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#16758#22637#0#PHP" expanded="false" />
-            <element signature="n#div#16;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#17;n#div#2;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#17;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#22639#26709#0#PHP" expanded="false" />
-            <element signature="e#26711#30924#0#PHP" expanded="false" />
-            <element signature="e#30926#33819#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#27;n#div#2;n#!!top" expanded="true" />
-            <element signature="e#33821#36048#0#PHP" expanded="false" />
-            <element signature="e#33968#33975#0#HTML" expanded="true" />
-            <marker date="1482520765598" expanded="true" signature="2777:2820" ph="SELECT * FRO... general_message" />
-            <marker date="1482520765598" expanded="false" signature="15409:15425" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15473:15491" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15521:15538" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15591:15608" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15650:15667" ph="..." />
-            <marker date="1482520765598" expanded="false" signature="15832:15849" ph="..." />
-            <marker date="1482520765598" expanded="true" signature="33212:33255" ph="SELECT * FRO... general_message" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="240" column="359" selection-start-line="240" selection-start-column="359" selection-end-line="240" selection-end-column="359" />
-          <folding>
-            <marker date="1482562400532" expanded="true" signature="5827:6109" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="6223:6249" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6354:6411" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6539" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="6526:6540" ph="SELECT * FRO... ${$field}" />
-            <marker date="1482562400532" expanded="true" signature="6526:6549" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6556" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6566" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6526:6571" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="6712:7009" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="7104:7116" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7127" ph="INSERT INTO " />
-            <marker date="1482562400532" expanded="true" signature="7104:7128" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7231" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7259" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7315" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7351" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7104:7450" ph="INSERT INTO $... " />
-            <marker date="1482562400532" expanded="true" signature="7527:7554" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7568" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7569" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7576" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7527:7690" ph="CREATE TABLE... IF" />
-            <marker date="1482562400532" expanded="true" signature="7803:7863" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7883" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7803:7888" ph="UPDATE ${{$u... " />
-            <marker date="1482562400532" expanded="true" signature="7969:7995" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="7969:8002" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8096:8156" ph="SELECT id FR... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8185" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8192" ph="SELECT * FRO... " />
-            <marker date="1482562400532" expanded="true" signature="8171:8193" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8171:8200" ph="SELECT * FRO... $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8316" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8329" ph="SELECT name " />
-            <marker date="1482562400532" expanded="true" signature="8299:8330" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8343" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8355" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8362" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8299:8370" ph="SELECT name $" />
-            <marker date="1482562400532" expanded="true" signature="8436:8456" ph="SELECT * FRO... admins" />
-            <marker date="1482562400532" expanded="true" signature="8567:8730" ph="INSERT INTO `admins`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9004" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9016" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9028" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9071" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="8870:9112" ph="INSERT INTO `teachers`... " />
-            <marker date="1482562400532" expanded="true" signature="9180:9202" ph="SELECT * FRO... teachers" />
-            <marker date="1482562400532" expanded="true" signature="9342:9476" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9342:9584" ph="INSERT INTO `students`... " />
-            <marker date="1482562400532" expanded="true" signature="9651:9673" ph="SELECT * FRO... students" />
-            <marker date="1482562400532" expanded="true" signature="9933:9992" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="9933:10015" ph="INSERT INTO `general_message`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10110" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10144" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10085:10153" ph="INSERT INTO `fieldcode`... " />
-            <marker date="1482562400532" expanded="true" signature="10213:10238" ph="SELECT * FRO... fieldcode" />
-            <marker date="1482562400532" expanded="true" signature="10301:10325" ph="SELECT * FRO... settings" />
-            <marker date="1482562400532" expanded="true" signature="10404:10426" ph="DELETE FROM " />
-            <marker date="1482562400532" expanded="true" signature="10458:10535" ph="INSERT INTO `settings`... " />
-            <marker date="1482562400532" expanded="true" signature="10680:10897" ph="Create Table... IF" />
-            <marker date="1482562400532" expanded="true" signature="10929:11094" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11112" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11128" ph="INSERT INTO `1520_95961`... " />
-            <marker date="1482562400532" expanded="true" signature="10929:11156" ph="INSERT INTO `1520_95961`... " />
-          </folding>
         </state>
       </provider>
     </entry>
