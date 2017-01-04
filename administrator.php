@@ -411,7 +411,7 @@ require_once "header.php";
                 <form action="administrator.php?page=add_course" method="get">
                     <div class="panel-body">
                         <p>از بین رشته ها انتخاب نمایید</p>
-                        
+
                         <div class="input-group input-group-lg">
                             <span class="input-group-addon" id="sizing-addon1">مشخصه : </span>
                             <select class="form-control" name="fieldcodes[]" id="testt">
